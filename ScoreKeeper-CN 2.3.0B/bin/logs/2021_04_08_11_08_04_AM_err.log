@@ -1,0 +1,430 @@
+11:08:04,960 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+11:08:04,961 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+11:08:04,961 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/E:/Programming/Robotics/20210410%20FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+11:08:04,962 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+11:08:04,962 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/E:/Programming/Robotics/20210410%20FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+11:08:04,962 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/E:/Programming/Robotics/20210410%20FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCLocal-v2.3.0.jar!/logback.xml]
+11:08:04,974 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@123f1134 - URL [jar:file:/E:/Programming/Robotics/20210410%20FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml] is not of type file
+11:08:05,036 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:08:05,036 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+11:08:05,043 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+11:08:05,050 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:08:05,078 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [io.sentry.logback.SentryAppender]
+11:08:05,080 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sentry]
+11:08:05,082 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:08:05,083 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+11:08:05,083 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+11:08:05,083 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sentry] to Logger[ROOT]
+11:08:05,083 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:08:05,084 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7d68ef40 - Registering current configuration as safe fallback point
+
+11:08:05.130 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @797ms to org.eclipse.jetty.util.log.Slf4jLog
+11:08:05.331 [main] INFO  o.usfirst.ftc.server.SQLiteServerDAO - Creating server.db
+11:08:06.547 [main] INFO  org.usfirst.ftc.server.Server - Attempting to start server on port 80
+11:08:06.550 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = /public
+11:08:06.554 [main] INFO  s.s.StaticFilesConfiguration - External StaticResourceHandler configured with folder = ../uploads
+11:08:06.638 [Thread-9] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+11:08:06.638 [Thread-9] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:80
+11:08:06.640 [Thread-9] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 15.0.2+7-27
+11:08:06.656 [Thread-9] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+11:08:06.657 [Thread-9] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+11:08:06.658 [Thread-9] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+11:08:06.660 [Thread-9] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@637f9c0d{/,null,AVAILABLE}
+11:08:06.660 [Thread-9] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@5d62dc96{/apiv1,null,AVAILABLE}
+11:08:06.660 [Thread-9] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@7662cf80{/api,null,AVAILABLE}
+11:08:06.667 [Thread-9] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@32ddcd98{/,null,AVAILABLE}
+11:08:06.670 [Thread-9] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3c208085{HTTP/1.1,[http/1.1]}{0.0.0.0:80}
+11:08:06.671 [Thread-9] INFO  org.eclipse.jetty.server.Server - Started @2345ms
+11:08:06.671 [main] INFO  org.usfirst.ftc.server.Server - Server started on port 80
+11:08:06.926 [main] INFO  org.usfirst.ftc.server.Server - Launching browser for OS: Windows 10
+11:08:07.544 [qtp1031677348-28] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:08:07:544 AM, Session: node01xrek81jevo7k10u6hxm69qamr0, Route: http://localhost/ GET
+11:08:11.764 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:08:11:764 AM, Session: node01xrek81jevo7k10u6hxm69qamr0, Route: http://localhost/login/ GET
+11:08:14.117 [qtp1031677348-24] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:08:14:117 AM, Session: node01xrek81jevo7k10u6hxm69qamr0, Route: http://localhost/callback/ POST
+11:08:14.136 [qtp1031677348-30] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:08:14:136 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/ GET
+11:08:16.432 [qtp1031677348-24] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:08:16:431 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/setup/event/ GET
+11:08:17.948 [qtp1031677348-30] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:08:17:948 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/setup/offline/ GET
+11:08:18.937 [qtp1031677348-24] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:08:18:937 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/select/event/ GET
+11:08:19.217 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:08:19:217 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/select/event/list/ GET
+11:08:22.146 [qtp1031677348-30] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:08:22:145 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/create/event/ GET
+11:09:53.183 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:09:53:183 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/create/event/ POST
+11:09:53.200 [qtp1031677348-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Creating south_regional_invitational_2021.db.
+Checking to see if new accounts need to be created for south_regional_invitational_2021
+Accounts had not been generated for south_regional_invitational_2021 - none missing to create
+11:09:54.936 [Thread-22] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater started!
+11:09:55.264 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:09:55:264 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/ GET
+11:09:57.683 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:09:57:683 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/defaultaccounts/ GET
+11:10:00.056 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:00:055 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/defaultaccounts/rerandom/ GET
+11:10:06.047 [qtp1031677348-24] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:06:047 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/defaultaccounts/ GET
+11:10:09.514 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:09:514 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/ GET
+11:10:12.279 [qtp1031677348-24] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:12:279 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ GET
+11:10:12.636 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:12:636 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/data/ GET
+11:10:12.653 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:12:653 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/teams/countries/ GET
+11:10:12.654 [qtp1031677348-24] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:12:654 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/leagues/ GET
+11:10:13.483 [qtp1031677348-24] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:13:483 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/leagues/null/ GET
+java.lang.NullPointerException: Cannot invoke "java.util.Set.stream()" because the return value of "java.util.Map.get(Object)" is null
+	at org.usfirst.ftc.event.league.LeagueSubsystem.getTeamsForLeague(LeagueSubsystem.java:631)
+	at org.usfirst.ftc.event.league.LeagueRoutesLogic.lambda$static$14(LeagueRoutesLogic.java:255)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1669)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:61)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+11:10:13.519 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:13:519 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/teams/states/?country=USA GET
+11:10:13.601 [qtp1031677348-24] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:13:601 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+11:10:24.371 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:24:371 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:10:24.383 [qtp1031677348-26] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1120
+11:10:44.943 [Thread-22] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+11:10:58.987 [qtp1031677348-24] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:10:58:987 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:11:07.037 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:11:07:037 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:11:07.048 [qtp1031677348-26] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1343
+11:11:27.162 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:11:27:162 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:11:32.539 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:11:32:539 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:11:38.841 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:11:38:841 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:11:38.856 [qtp1031677348-37] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1378
+11:11:54.844 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:11:54:844 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:12:10.761 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:12:10:761 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:12:10.772 [qtp1031677348-37] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1387
+11:12:25.261 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:12:25:261 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:12:34.302 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:12:34:302 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:12:34.321 [qtp1031677348-37] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1680
+11:12:54.463 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:12:54:463 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:13:09.214 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:13:09:214 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:13:09.228 [qtp1031677348-37] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1708
+11:13:21.341 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:13:21:341 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:13:31.169 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:13:31:169 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:13:42.797 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:13:42:797 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:13:42.812 [qtp1031677348-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1784
+11:13:44.197 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:13:44:197 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/1784/ DELETE
+11:13:48.225 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:13:48:225 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:14:02.384 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:14:02:384 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:14:27.108 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:14:27:108 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:14:27.125 [qtp1031677348-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 1792
+11:14:41.302 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:14:41:302 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:14:53.670 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:14:53:670 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:14:53.689 [qtp1031677348-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 2402
+11:15:06.624 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:15:06:624 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:15:15.481 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:15:15:481 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:15:15.497 [qtp1031677348-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 6120
+11:15:25.473 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:15:25:473 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:15:33.732 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:15:33:732 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:15:33.749 [qtp1031677348-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 6626
+11:16:14.802 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:16:14:802 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:16:25.041 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:16:25:041 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:16:25.056 [qtp1031677348-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 6868
+11:16:37.105 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:16:37:105 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:16:46.616 [qtp1031677348-28] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:16:46:616 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:16:46.628 [qtp1031677348-28] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 7050
+11:17:03.852 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:17:03:852 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:17:18.290 [qtp1031677348-28] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:17:18:290 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:17:18.317 [qtp1031677348-28] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 7201
+11:17:30.673 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:17:30:673 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:17:39.332 [qtp1031677348-28] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:17:39:332 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:17:39.344 [qtp1031677348-28] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 7500
+11:17:53.878 [qtp1031677348-51] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:17:53:878 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:18:00.181 [qtp1031677348-28] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:18:00:181 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:18:00.193 [qtp1031677348-28] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 7575
+11:18:10.144 [qtp1031677348-51] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:18:10:144 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:18:17.317 [qtp1031677348-28] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:18:17:317 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:18:17.330 [qtp1031677348-28] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 8307
+11:18:36.917 [qtp1031677348-51] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:18:36:917 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:18:42.136 [qtp1031677348-28] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:18:42:136 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:18:42.147 [qtp1031677348-28] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 8515
+11:18:57.434 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:18:57:434 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:19:02.877 [qtp1031677348-28] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:19:02:877 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:19:02.889 [qtp1031677348-28] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 8639
+11:19:19.541 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:19:19:541 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:19:25.604 [qtp1031677348-28] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:19:25:603 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:19:25.623 [qtp1031677348-28] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 8686
+11:19:47.545 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:19:47:545 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:19:57.976 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:19:57:975 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:19:57.994 [qtp1031677348-36] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 8999
+11:20:26.061 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:20:26:061 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:20:34.461 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:20:34:461 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:20:34.476 [qtp1031677348-36] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 9126
+11:20:50.344 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:20:50:344 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:20:59.171 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:20:59:171 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ PUT
+11:20:59.188 [qtp1031677348-29] INFO  org.usfirst.ftc.event.SQLiteEventDAO - Added team with no global entry: 9795
+11:21:21.662 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:21:662 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/edit/ POST
+11:21:23.605 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:23:605 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/ GET
+11:21:25.769 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:25:769 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/ GET
+11:21:26.170 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:26:170 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/data/ GET
+11:21:26.200 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:26:200 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/teams/countries/ GET
+11:21:26.203 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:26:203 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/leagues/ GET
+11:21:26.917 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:26:917 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/teams/leagues/null/ GET
+java.lang.NullPointerException: Cannot invoke "java.util.Set.stream()" because the return value of "java.util.Map.get(Object)" is null
+	at org.usfirst.ftc.event.league.LeagueSubsystem.getTeamsForLeague(LeagueSubsystem.java:631)
+	at org.usfirst.ftc.event.league.LeagueRoutesLogic.lambda$static$14(LeagueRoutesLogic.java:255)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1669)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:61)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+11:21:26.934 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:26:934 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/teams/states/?country=USA GET
+11:21:26.982 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:26:982 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/teams/location/?country=USA&state=AE GET
+11:21:35.501 [qtp1031677348-37] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:35:501 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/manage/ GET
+11:21:54.006 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:21:54:006 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/manage/ GET
+11:22:13.430 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:22:13:430 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/setup/event/ GET
+11:22:16.768 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:22:16:768 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/ GET
+11:22:17.950 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:22:17:950 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/ GET
+11:22:21.450 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:22:21:450 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/setup/event/ GET
+11:22:22.966 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:22:22:966 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/ GET
+11:22:22.983 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:22:22:983 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/ GET
+11:22:24.327 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:22:24:327 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/ GET
+11:28:57.671 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:28:57:670 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/schedule/ GET
+11:28:58.422 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:28:58:422 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/plainschedule/ GET
+11:30:15.857 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:30:15:857 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/schedule/runmatchmaker/ POST
+java.lang.IllegalArgumentException: Schedule out of order or overlapped: Launch Break 午餐休息 starts at 2021/04/08 12:00 but the previous block ended at 2021/04/08 14:08
+	at org.usfirst.ftc.event.management.ManagementSubsystem.generateQualificationSchedule(ManagementSubsystem.java:898)
+	at org.usfirst.ftc.event.management.ManagementRoutesLogic.lambda$static$28(ManagementRoutesLogic.java:839)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1669)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:61)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+11:31:10.590 [qtp1031677348-51] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:31:10:590 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/schedule/runmatchmaker/ POST
+java.lang.IllegalArgumentException: Schedule out of order or overlapped: Launch Break 午餐休息 starts at 2021/04/08 12:00 but the previous block ended at 2021/04/08 12:02
+	at org.usfirst.ftc.event.management.ManagementSubsystem.generateQualificationSchedule(ManagementSubsystem.java:898)
+	at org.usfirst.ftc.event.management.ManagementRoutesLogic.lambda$static$28(ManagementRoutesLogic.java:839)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1669)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:61)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+11:31:17.765 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:31:17:765 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/schedule/runmatchmaker/ POST
+java.lang.IllegalArgumentException: Schedule out of order or overlapped: Launch Break 午餐休息 starts at 2021/04/08 12:00 but the previous block ended at 2021/04/08 12:02
+	at org.usfirst.ftc.event.management.ManagementSubsystem.generateQualificationSchedule(ManagementSubsystem.java:898)
+	at org.usfirst.ftc.event.management.ManagementRoutesLogic.lambda$static$28(ManagementRoutesLogic.java:839)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1669)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:61)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+11:31:24.270 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:31:24:270 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/schedule/runmatchmaker/ POST
+java.lang.IllegalArgumentException: Schedule out of order or overlapped: Qualification 12 starts at 2021/04/08 13:00 but the previous block ended at 2021/04/08 13:02
+	at org.usfirst.ftc.event.management.ManagementSubsystem.generateQualificationSchedule(ManagementSubsystem.java:898)
+	at org.usfirst.ftc.event.management.ManagementRoutesLogic.lambda$static$28(ManagementRoutesLogic.java:839)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1669)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:61)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+11:31:35.604 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:31:35:604 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/schedule/runmatchmaker/ POST
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=1 2402 0 8307 0 8999 0 8639 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=2 1343 0 1680 0 7575 0 6626 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=3 8515 0 6120 0 7201 0 1792 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=4 1708 0 1120 0 7050 0 7500 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=5 8686 0 6868 0 1378 0 9795 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=6 1784 0 9126 0 8999 0 1387 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=7 8639 0 1792 0 9795 0 1708 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=8 1387 0 8515 0 6626 0 8686 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=9 9126 0 7050 0 7201 0 2402 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=10 8307 0 1378 0 1680 0 6120 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=11 6868 0 1784 0 1120 0 7575 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=12 1343 0 7201 0 8686 0 7500 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=13 2402 1 1708 0 1680 0 6868 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=14 6120 0 7500 0 8639 0 1784 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=15 9795 0 7575 0 7050 0 1387 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=16 6626 0 9126 0 8307 0 1120 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=17 1378 0 8999 0 8515 0 1343 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=18 1792 0 8686 0 1680 0 7050 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=19 6868 0 1343 0 9126 0 8639 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=20 9795 0 6626 0 6120 0 8999 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=21 7500 0 7575 0 2402 0 1792 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=22 1784 0 8307 0 1708 0 8515 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=23 1120 0 7201 0 1387 0 1378 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=24 2402 0 1343 0 1784 0 9795 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=25 7050 0 8639 0 6626 0 1378 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=26 7500 0 1680 0 9126 0 8515 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=27 7575 0 8999 0 7201 0 1708 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=28 1792 0 1387 0 8307 0 6868 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper saveGeneratedMatches
+信息: processing line=29 1120 0 6120 0 8686 0 2402 0
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper.ProcessThread run
+信息: Deleting team list file../lib/MatchMaker/windows\matchGenTeams.txt
+4月 08, 2021 11:31:59 上午 MatchMakerWrapper.ProcessThread run
+信息: MatchMaker result code = 0
+11:32:09.949 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:32:09:949 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/schedule/waitformatchmaker/?mpt=5&cycleTime=420000&schedule=%5B%7B%22start%22%3A1617849900000%2C%22matchCount%22%3A%2211%22%2C%22type%22%3A%22MATCH%22%7D%2C%7B%22label%22%3A%22Launch+Break+%E5%8D%88%E9%A4%90%E4%BC%91%E6%81%AF%22%2C%22start%22%3A1617854520000%2C%22duration%22%3A%2258%22%2C%22type%22%3A%22BREAK%22%7D%2C%7B%22start%22%3A1617858000000%2C%22matchCount%22%3A%2218%22%2C%22type%22%3A%22MATCH%22%7D%5D&rerun=false&minT14=false GET
+11:32:10.096 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:32:10:096 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/plainschedule/ GET
+11:32:10.175 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:32:10:175 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/main.css/ GET
+11:32:12.472 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:32:12:472 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/schedule/ POST
+11:32:51.155 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:32:51:155 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/ GET
+11:32:58.808 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:32:58:808 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/leagues/export/ GET
+11:33:02.055 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:33:02:055 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/ GET
+11:33:04.588 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:33:04:588 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/status/ GET
+11:33:09.103 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:33:09:103 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/ GET
+11:33:15.987 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:33:15:987 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/schedule/ GET
+11:33:45.952 [qtp1031677348-29] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:33:45:952 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/ GET
+11:34:51.003 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:34:51:003 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/manage/ GET
+11:34:55.193 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:34:55:193 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/ GET
+11:34:55.211 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:34:55:211 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/ GET
+11:34:58.571 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:34:58:571 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/dashboard/ GET
+11:35:00.620 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:35:00:620 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/ GET
+11:35:00.637 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:35:00:637 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/ GET
+11:35:04.583 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:35:04:583 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/users/me/ GET
+11:35:07.672 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:35:07:672 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/feedback/ GET
+11:35:11.602 [qtp1031677348-27] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:35:11:602 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/resources/ GET
+11:35:20.506 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:35:20:506 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/resources/ GET
+11:35:21.639 [qtp1031677348-26] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:35:21:639 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/ GET
+11:35:21.661 [qtp1031677348-36] INFO  org.usfirst.ftc.server.Server - Time: 04/08/2021 11:35:21:661 AM, Session: node01ppprw8dkj2kcg9pmh8x3wbyc1, Route: http://localhost/event/south_regional_invitational_2021/ GET
+11:35:47.129 [Thread-22] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater interrupted! Performing final queue dump and terminating.
+11:35:47.129 [Thread-22] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater iterminating.
