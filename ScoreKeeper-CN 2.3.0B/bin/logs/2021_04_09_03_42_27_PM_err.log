@@ -1,0 +1,262 @@
+15:42:27,661 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+15:42:27,662 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+15:42:27,662 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+15:42:27,662 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+15:42:27,662 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+15:42:27,662 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCLocal-v2.3.0.jar!/logback.xml]
+15:42:27,671 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7f9fcf7f - URL [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml] is not of type file
+15:42:27,756 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:42:27,757 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:42:27,761 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+15:42:27,767 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:42:27,784 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [io.sentry.logback.SentryAppender]
+15:42:27,785 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sentry]
+15:42:27,786 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:42:27,787 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+15:42:27,787 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+15:42:27,787 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sentry] to Logger[ROOT]
+15:42:27,787 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:42:27,788 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2357d90a - Registering current configuration as safe fallback point
+
+15:42:27.825 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @599ms to org.eclipse.jetty.util.log.Slf4jLog
+Checking to see if new accounts need to be created for south_regional_invitational_2021
+No accounts missing for south_regional_invitational_2021
+15:42:28.583 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater started!
+15:42:28.682 [main] INFO  org.usfirst.ftc.event.EventsManager - Loaded active event south_regional_invitational_2021
+15:42:28.691 [main] INFO  org.usfirst.ftc.server.Server - Attempting to start server on port 80
+15:42:28.693 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = /public
+15:42:28.695 [main] INFO  s.s.StaticFilesConfiguration - External StaticResourceHandler configured with folder = ../uploads
+15:42:28.776 [Thread-21] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+15:42:28.776 [Thread-21] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:80
+15:42:28.778 [Thread-21] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 13.0.1+9
+15:42:28.800 [Thread-21] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+15:42:28.800 [Thread-21] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+15:42:28.800 [Thread-21] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+15:42:28.803 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@2f25bbe8{/,null,AVAILABLE}
+15:42:28.803 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@28b7115a{/apiv1,null,AVAILABLE}
+15:42:28.803 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@6572dc61{/api,null,AVAILABLE}
+15:42:28.808 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1583152f{/,null,AVAILABLE}
+15:42:28.815 [Thread-21] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3fff8759{HTTP/1.1,[http/1.1]}{0.0.0.0:80}
+15:42:28.815 [Thread-21] INFO  org.eclipse.jetty.server.Server - Started @1596ms
+15:42:28.816 [main] INFO  org.usfirst.ftc.server.Server - Server started on port 80
+15:42:28.983 [main] INFO  org.usfirst.ftc.server.Server - Launching browser for OS: Windows 10
+15:42:29.307 [qtp1301541761-49] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:42:29:307 PM, Session: node0a7gd32ddmg2011yq6m206qobp0, Route: http://localhost/ GET
+15:42:29.320 [qtp1301541761-49] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:42:29:320 PM, Session: node0a7gd32ddmg2011yq6m206qobp0, Route: http://localhost/event/south_regional_invitational_2021/ GET
+15:43:18.637 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+15:43:30.927 [qtp1301541761-59] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:43:30:926 PM, Session: node01bb0kamusc89b1y2iraxuiyhn91, Route: http://match-control/ HEAD
+15:43:41.821 [qtp1301541761-49] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:43:41:821 PM, Session: node01qzovt4xm7zhoc908qco1s0qp2, Route: http://match-control.ftcchina.org/ GET
+15:43:41.827 [qtp1301541761-59] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:43:41:827 PM, Session: node01qzovt4xm7zhoc908qco1s0qp2, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/ GET
+15:43:47.245 [qtp1301541761-56] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:43:47:245 PM, Session: node01qzovt4xm7zhoc908qco1s0qp2, Route: http://match-control.ftcchina.org/login/ GET
+15:43:49.437 [qtp1301541761-44] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:43:49:437 PM, Session: node01qzovt4xm7zhoc908qco1s0qp2, Route: http://match-control.ftcchina.org/callback/ POST
+15:43:49.445 [qtp1301541761-56] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:43:49:445 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/ GET
+15:43:49.449 [qtp1301541761-44] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:43:49:449 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/ GET
+15:44:03.850 [qtp1301541761-56] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:44:03:850 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/ GET
+15:44:03.980 [qtp1301541761-56] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:44:03:980 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/schedule/ GET
+15:44:13.603 [qtp1301541761-45] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:44:13:603 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/ GET
+15:44:13.705 [qtp1301541761-56] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:44:13:705 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/schedule/ GET
+15:44:22.072 [qtp1301541761-45] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:44:22:072 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/ GET
+15:44:30.578 [qtp1301541761-45] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 03:44:30:578 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/sponsors/ GET
+16:34:48.404 [qtp1301541761-77] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:34:48:403 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/ref/red/ GET
+16:34:48.409 [qtp1301541761-58] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:34:48:409 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/ref/field/all/red/ GET
+Connecting 2021???????????'s RED ref for match 0
+Closing 2021???????????'s RED ref for match 0
+16:35:58.205 [qtp1301541761-58] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:35:58:204 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/schedule/ GET
+16:36:21.543 [qtp1301541761-61] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:36:21:543 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/ GET
+16:36:21.666 [qtp1301541761-58] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:36:21:666 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/schedule/ GET
+16:36:24.549 [qtp1301541761-61] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:36:24:549 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/ GET
+16:36:36.276 [qtp1301541761-58] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:36:36:275 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/create/account/ GET
+16:36:57.989 [qtp1301541761-61] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:36:57:989 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/create/account/ POST
+16:36:58.294 [qtp1301541761-58] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:36:58:294 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/users/manage/windy/ GET
+16:38:58.625 [qtp1301541761-45] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:38:58:625 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/create/account/ GET
+16:55:09.275 [qtp1301541761-83] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:55:09:275 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/ GET
+16:55:09.279 [qtp1301541761-61] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 04:55:09:279 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/ GET
+17:43:25.465 [qtp1301541761-88] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:43:25:465 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/display/pit/ GET
+17:43:35.636 [qtp1301541761-62] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:43:35:636 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/display/pit/ GET
+17:43:41.726 [qtp1301541761-62] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:43:41:726 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/inspection_schedule/ GET
+17:43:41.829 [qtp1301541761-43] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:43:41:829 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/inspection_schedule/raw/ GET
+17:43:55.677 [qtp1301541761-62] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:43:55:676 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/give_awards/ GET
+17:43:55.775 [qtp1301541761-88] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:43:55:775 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET
+17:43:55.790 [qtp1301541761-81] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:43:55:789 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007bc9bb-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+17:43:59.145 [qtp1301541761-81] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:43:59:145 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/view_script/ GET
+17:43:59.221 [qtp1301541761-43] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:43:59:220 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET
+17:44:46.863 [qtp1301541761-62] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:44:46:863 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/display/ GET
+17:44:47.233 [qtp1301541761-89] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:44:47:233 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/assets/manifest/ GET
+17:44:49.878 [qtp1301541761-62] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:44:49:878 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/display/config/ad/false/ad/ad/false/0/00ff00/true/false/false/false/classic/false/ GET
+17:44:50.031 [qtp1301541761-93] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:44:50:031 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/assets/manifest/ GET
+17:44:59.329 [qtp1301541761-92] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:44:59:329 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/ GET
+17:45:03.566 [qtp1301541761-89] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:45:03:566 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/ GET
+17:45:03.650 [qtp1301541761-92] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:45:03:650 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/schedule/ GET
+17:45:13.175 [qtp1301541761-89] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:45:13:175 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/reports/ GET
+17:46:28.584 [qtp1301541761-88] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:46:28:584 PM, Session: node0y4uvkf311h513cuvz2rbhzpe4, Route: http://192.168.1.101/ GET
+17:46:28.640 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:46:28:640 PM, Session: node0y4uvkf311h513cuvz2rbhzpe4, Route: http://192.168.1.101/event/south_regional_invitational_2021/ GET
+17:46:32.461 [qtp1301541761-91] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:46:32:461 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/display/pit/ GET
+17:47:00.424 [qtp1301541761-58] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:47:00:424 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/ GET
+17:47:00.542 [qtp1301541761-91] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:47:00:542 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/schedule/ GET
+17:48:07.740 [qtp1301541761-58] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:07:740 PM, Session: node0ogjs1xco9yloahz44k1gll465, Route: http://match-control/ GET
+17:48:07.800 [qtp1301541761-67] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:07:800 PM, Session: node0ogjs1xco9yloahz44k1gll465, Route: http://match-control/event/south_regional_invitational_2021/ GET
+17:48:10.204 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:10:204 PM, Session: node0ogjs1xco9yloahz44k1gll465, Route: http://match-control/login/ GET
+17:48:17.764 [qtp1301541761-81] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:17:763 PM, Session: node0ogjs1xco9yloahz44k1gll465, Route: http://match-control/callback/ POST
+17:48:18.103 [qtp1301541761-89] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:18:102 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/ GET
+17:48:18.122 [qtp1301541761-81] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:18:122 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/event/south_regional_invitational_2021/ GET
+17:48:20.091 [qtp1301541761-89] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:20:091 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/users/me/ GET
+17:48:22.910 [qtp1301541761-81] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:22:910 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/ GET
+17:48:22.971 [qtp1301541761-89] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:22:971 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/event/south_regional_invitational_2021/ GET
+17:48:28.539 [qtp1301541761-93] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:28:539 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/users/manage/ GET
+17:48:29.990 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:29:990 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/users/manage/windy/ GET
+17:48:37.338 [qtp1301541761-93] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:37:338 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/users/manage/windy/ PUT
+17:48:37.781 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:37:781 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/users/manage/windy/ GET
+17:48:37.801 [qtp1301541761-93] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:37:801 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/login/ GET
+17:48:42.735 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:42:735 PM, Session: node0163f6eul394731b050h4euzfyh6, Route: http://match-control/callback/ POST
+17:48:43.043 [qtp1301541761-93] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:43:043 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/users/manage/windy/ GET
+17:48:45.124 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:45:124 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/ GET
+17:48:45.163 [qtp1301541761-93] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:48:45:162 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/event/south_regional_invitational_2021/ GET
+17:49:59.320 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:49:59:319 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/event/south_regional_invitational_2021/display/ GET
+17:50:01.770 [qtp1301541761-88] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:50:01:770 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/assets/manifest/ GET
+17:50:19.674 [qtp1301541761-43] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:50:19:674 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/event/south_regional_invitational_2021/display/config/ad/false/ad/ad/false/0/00ff00/true/false/false/false/classic/false/ GET
+17:50:20.604 [qtp1301541761-43] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:50:20:604 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/assets/manifest/ GET
+17:50:58.382 [qtp1301541761-92] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:50:58:382 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/schedule/ GET
+17:53:25.423 [qtp1301541761-89] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 05:53:25:423 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/schedule/ GET
+18:12:38.699 [qtp1301541761-81] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:12:38:699 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/ GET
+18:12:43.517 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:12:43:517 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/ GET
+18:12:43.551 [qtp1301541761-98] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:12:43:551 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/event/south_regional_invitational_2021/ GET
+18:13:01.818 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:13:01:818 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/event/south_regional_invitational_2021/display/ GET
+18:13:02.930 [qtp1301541761-113] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:13:02:930 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/assets/manifest/ GET
+18:13:04.277 [qtp1301541761-43] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:13:04:277 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/event/south_regional_invitational_2021/display/config/ad/false/ad/ad/false/0/00ff00/true/false/false/false/classic/true/ GET
+18:13:04.801 [qtp1301541761-43] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:13:04:801 PM, Session: node01wgrc2i2kd2vloy4mj67pfvx17, Route: http://match-control/assets/manifest/ GET
+18:14:53.880 [qtp1301541761-62] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:14:53:880 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/ref/red/ GET
+18:14:53.884 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:14:53:884 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/ref/field/all/red/ GET
+Connecting 2021???????????'s RED ref for match 0
+Closing 2021???????????'s RED ref for match 0
+18:14:58.498 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:14:58:498 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/give_awards/ GET
+18:14:58.562 [qtp1301541761-62] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:14:58:562 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET
+18:14:58.577 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:14:58:577 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007bc9bb-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:25:13.081 [qtp1301541761-109] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:25:13:081 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/ GET
+18:25:13.197 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:25:13:197 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/schedule/ GET
+18:25:16.276 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:25:16:275 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/sponsors/ POST
+18:25:35.530 [qtp1301541761-98] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:25:35:530 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/sponsors/ POST
+18:36:10.524 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:36:10:524 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/schedule/ GET
+18:36:22.029 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:36:22:029 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/ GET
+18:36:24.901 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:36:24:901 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/teams/ GET
+18:36:24.991 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:36:24:991 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/teams/data/ GET
+18:36:24.994 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:36:24:994 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/teams/countries/ GET
+18:36:24.995 [qtp1301541761-110] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:36:24:995 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/teams/leagues/ GET
+18:36:25.030 [qtp1301541761-117] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:36:25:030 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/teams/leagues/null/ GET
+java.lang.NullPointerException
+	at org.usfirst.ftc.event.league.LeagueSubsystem.getTeamsForLeague(LeagueSubsystem.java:631)
+	at org.usfirst.ftc.event.league.LeagueRoutesLogic.lambda$static$14(LeagueRoutesLogic.java:255)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1669)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:61)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+18:36:25.038 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:36:25:038 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/teams/states/?country=USA GET
+18:36:25.067 [qtp1301541761-117] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:36:25:067 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/teams/location/?country=USA&state=AE GET
+18:38:05.652 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:38:05:652 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/leagues/ GET
+18:38:10.802 [qtp1301541761-118] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:38:10:802 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/teams/ GET
+18:38:10.891 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:38:10:891 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/teams/data/ GET
+18:38:10.895 [qtp1301541761-118] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:38:10:895 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/teams/countries/ GET
+18:38:10.895 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:38:10:895 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/teams/leagues/ GET
+18:38:10.925 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:38:10:925 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/teams/leagues/null/ GET
+java.lang.NullPointerException
+	at org.usfirst.ftc.event.league.LeagueSubsystem.getTeamsForLeague(LeagueSubsystem.java:631)
+	at org.usfirst.ftc.event.league.LeagueRoutesLogic.lambda$static$14(LeagueRoutesLogic.java:255)
+	at spark.RouteImpl$1.handle(RouteImpl.java:72)
+	at spark.http.matching.Routes.execute(Routes.java:61)
+	at spark.http.matching.MatcherFilter.doFilter(MatcherFilter.java:134)
+	at spark.embeddedserver.jetty.JettyHandler.doHandle(JettyHandler.java:50)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1669)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:61)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:505)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:698)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:804)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+18:38:10.934 [qtp1301541761-118] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:38:10:934 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/teams/states/?country=USA GET
+18:38:10.967 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:38:10:967 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/teams/location/?country=USA&state=AE GET
+18:41:50.523 [qtp1301541761-118] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:41:50:523 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/inspection_schedule/ GET
+18:41:50.619 [qtp1301541761-118] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:41:50:619 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/inspection_schedule/form/ GET
+18:41:50.620 [qtp1301541761-120] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:41:50:620 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/inspection_schedule/raw/ GET
+18:41:50.632 [qtp1301541761-117] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:41:50:632 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/inspection_schedule/form/ POST
+18:47:52.771 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:47:52:771 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/setup/event/ GET
+18:48:00.516 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:00:516 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/ GET
+18:48:07.423 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:07:423 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/give_awards/ GET
+18:48:07.529 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:07:529 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET
+18:48:07.547 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:07:547 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007bc9bb-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:14.780 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:14:780 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007da7c9-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:17.998 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:17:998 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007d4629-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:18.551 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:18:550 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007ce655-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:19.990 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:19:990 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007f6ca7-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:20.983 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:20:983 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007fc621-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:21.522 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:21:522 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007f6ca7-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:22.965 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:22:964 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007f0f6a-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:23.309 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:23:309 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007eae0e-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:23.670 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:23:669 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007ce655-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:24.035 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:24:035 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007d4629-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:48:24.406 [qtp1301541761-90] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:48:24:406 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007da7c9-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:49:36.201 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:49:36:201 PM, Session: node0103x4mbq298uuogfi1rvz8gfy3, Route: http://match-control.ftcchina.org/callback/ POST
+18:49:36.208 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:49:36:208 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/ GET
+18:49:36.213 [qtp1301541761-115] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:49:36:212 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/ GET
+18:53:16.576 [qtp1301541761-123] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:53:16:576 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/ GET
+18:53:16.704 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:53:16:704 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/schedule/ GET
+18:53:20.937 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:53:20:937 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/sponsors/ POST
+18:53:22.816 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:53:22:816 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/sponsors/ POST
+18:53:22.957 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:53:22:957 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/sponsors/ POST
+18:53:23.093 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:53:23:093 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/sponsors/ POST
+18:53:23.885 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:53:23:885 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/bracket/ POST
+18:53:24.681 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:53:24:681 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/selection/show/ POST
+18:53:25.298 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:53:25:298 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/ranks/ POST
+18:53:25.767 [qtp1301541761-108] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:53:25:767 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/control/command/wifi/ POST
+18:58:59.471 [qtp1301541761-117] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:58:59:471 PM, Session: node010o1yucnxk52zz8iwd5u7e5488, Route: http://match-control.ftcchina.org/callback/ POST
+18:58:59.478 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:58:59:477 PM, Session: node01ifnodt8xb85wwr5bcsp7q019, Route: http://match-control.ftcchina.org/ GET
+18:58:59.483 [qtp1301541761-117] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 06:58:59:483 PM, Session: node01ifnodt8xb85wwr5bcsp7q019, Route: http://match-control.ftcchina.org/event/south_regional_invitational_2021/ GET
+20:32:14.659 [qtp1301541761-123] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:32:14:659 PM, Session: node01e9gug54mx88gfux0luchr8q910, Route: http://192.168.1.101/ GET
+20:32:14.678 [qtp1301541761-128] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:32:14:677 PM, Session: node01e9gug54mx88gfux0luchr8q910, Route: http://192.168.1.101/event/south_regional_invitational_2021/ GET
+20:32:17.553 [qtp1301541761-123] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:32:17:553 PM, Session: node01e9gug54mx88gfux0luchr8q910, Route: http://192.168.1.101/login/ GET
+20:34:37.340 [qtp1301541761-122] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:34:37:340 PM, Session: node01ifnodt8xb85wwr5bcsp7q019, Route: http://match-control.ftcchina.org/create/account/ GET
+20:34:47.364 [qtp1301541761-134] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:34:47:364 PM, Session: node01ifnodt8xb85wwr5bcsp7q019, Route: http://match-control.ftcchina.org/create/account/ POST
+20:34:52.280 [qtp1301541761-122] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:34:52:280 PM, Session: node01ifnodt8xb85wwr5bcsp7q019, Route: http://match-control.ftcchina.org/create/account/ POST
+20:34:52.575 [qtp1301541761-134] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:34:52:575 PM, Session: node01ifnodt8xb85wwr5bcsp7q019, Route: http://match-control.ftcchina.org/users/manage/inspect/ GET
+20:35:16.589 [qtp1301541761-138] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:35:16:589 PM, Session: node01qzr9wnile8nrti7uor4g8xl11, Route: http://192.168.1.101/ GET
+20:35:16.604 [qtp1301541761-135] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:35:16:603 PM, Session: node01qzr9wnile8nrti7uor4g8xl11, Route: http://192.168.1.101/event/south_regional_invitational_2021/ GET
+20:35:22.512 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:35:22:512 PM, Session: node01qzr9wnile8nrti7uor4g8xl11, Route: http://192.168.1.101/login/ GET
+20:35:44.586 [qtp1301541761-138] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:35:44:586 PM, Session: node01qzr9wnile8nrti7uor4g8xl11, Route: http://192.168.1.101/callback/ POST
+20:35:44.995 [qtp1301541761-107] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:35:44:994 PM, Session: node01em5eswebja0y2nytsnql3xbv12, Route: http://192.168.1.101/ GET
+20:35:45.024 [qtp1301541761-138] INFO  org.usfirst.ftc.server.Server - Time: 04/09/2021 08:35:45:024 PM, Session: node01em5eswebja0y2nytsnql3xbv12, Route: http://192.168.1.101/event/south_regional_invitational_2021/ GET

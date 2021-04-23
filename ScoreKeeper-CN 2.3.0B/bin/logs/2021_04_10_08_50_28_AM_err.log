@@ -1,0 +1,44 @@
+08:50:28,155 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+08:50:28,155 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+08:50:28,156 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/C:/Users/xiwen/Desktop/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+08:50:28,156 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+08:50:28,156 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/xiwen/Desktop/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+08:50:28,156 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/xiwen/Desktop/ScoreKeeper-CN%202.3.0B/lib/FTCLocal-v2.3.0.jar!/logback.xml]
+08:50:28,172 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7f9fcf7f - URL [jar:file:/C:/Users/xiwen/Desktop/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml] is not of type file
+08:50:28,243 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+08:50:28,243 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+08:50:28,250 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+08:50:28,257 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+08:50:28,279 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [io.sentry.logback.SentryAppender]
+08:50:28,280 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sentry]
+08:50:28,282 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+08:50:28,283 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+08:50:28,283 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+08:50:28,283 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sentry] to Logger[ROOT]
+08:50:28,283 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+08:50:28,284 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2357d90a - Registering current configuration as safe fallback point
+
+08:50:28.315 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @607ms to org.eclipse.jetty.util.log.Slf4jLog
+Checking to see if new accounts need to be created for south_regional_invitational_2021
+No accounts missing for south_regional_invitational_2021
+08:50:29.264 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater started!
+08:50:29.390 [main] INFO  org.usfirst.ftc.event.EventsManager - Loaded active event south_regional_invitational_2021
+08:50:29.400 [main] INFO  org.usfirst.ftc.server.Server - Attempting to start server on port 8080
+08:50:29.403 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = /public
+08:50:29.408 [main] INFO  s.s.StaticFilesConfiguration - External StaticResourceHandler configured with folder = ../uploads
+08:50:29.538 [Thread-21] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+08:50:29.538 [Thread-21] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:8080
+08:50:29.541 [Thread-21] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 13.0.1+9
+08:50:29.568 [Thread-21] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+08:50:29.568 [Thread-21] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+08:50:29.570 [Thread-21] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+08:50:29.572 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@51de2484{/,null,AVAILABLE}
+08:50:29.572 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@65fed349{/apiv1,null,AVAILABLE}
+08:50:29.572 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@1ae4fe8e{/api,null,AVAILABLE}
+08:50:29.578 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d746c79{/,null,AVAILABLE}
+08:50:29.585 [Thread-21] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6c929275{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+08:50:29.585 [Thread-21] INFO  org.eclipse.jetty.server.Server - Started @1880ms
+08:50:29.585 [main] INFO  org.usfirst.ftc.server.Server - Server started on port 8080
+08:50:29.733 [main] INFO  org.usfirst.ftc.server.Server - Launching browser for OS: Windows 10
+08:50:31.347 [qtp1494463183-46] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:50:31:347 AM, Session: node01pa0ioqmoel4m90diqgt3anne1, Route: http://localhost:8080/ GET
+08:50:31.358 [qtp1494463183-48] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:50:31:358 AM, Session: node01pa0ioqmoel4m90diqgt3anne1, Route: http://localhost:8080/event/south_regional_invitational_2021/ GET

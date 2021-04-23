@@ -1,0 +1,68 @@
+18:23:55,623 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+18:23:55,623 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+18:23:55,624 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+18:23:55,625 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+18:23:55,625 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+18:23:55,625 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCLocal-v2.3.0.jar!/logback.xml]
+18:23:55,645 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7f9fcf7f - URL [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml] is not of type file
+18:23:55,793 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+18:23:55,794 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:23:55,810 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+18:23:55,825 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:23:55,868 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [io.sentry.logback.SentryAppender]
+18:23:55,870 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sentry]
+18:23:55,872 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:23:55,873 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+18:23:55,873 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+18:23:55,874 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sentry] to Logger[ROOT]
+18:23:55,874 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+18:23:55,875 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2357d90a - Registering current configuration as safe fallback point
+
+18:23:55.955 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @1603ms to org.eclipse.jetty.util.log.Slf4jLog
+Checking to see if new accounts need to be created for south_regional_invitational_2021
+No accounts missing for south_regional_invitational_2021
+18:23:57.902 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater started!
+DID NOT WRITE RANKINGS TO DB DURING LOAD
+18:23:59.003 [main] INFO  org.usfirst.ftc.event.EventsManager - Loaded active event south_regional_invitational_2021
+18:23:59.059 [main] INFO  org.usfirst.ftc.server.Server - Attempting to start server on port 80
+18:23:59.068 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = /public
+18:23:59.077 [main] INFO  s.s.StaticFilesConfiguration - External StaticResourceHandler configured with folder = ../uploads
+18:23:59.429 [Thread-21] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+18:23:59.429 [Thread-21] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:80
+18:23:59.433 [Thread-21] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 13.0.1+9
+18:23:59.469 [Thread-21] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+18:23:59.469 [Thread-21] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+18:23:59.471 [Thread-21] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+18:23:59.475 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@42d1f04{/,null,AVAILABLE}
+18:23:59.476 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@47820175{/apiv1,null,AVAILABLE}
+18:23:59.477 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@3ab5b581{/api,null,AVAILABLE}
+18:23:59.492 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@701f5a21{/,null,AVAILABLE}
+18:23:59.502 [Thread-21] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@349a913f{HTTP/1.1,[http/1.1]}{0.0.0.0:80}
+18:23:59.502 [Thread-21] INFO  org.eclipse.jetty.server.Server - Started @5161ms
+18:23:59.503 [main] INFO  org.usfirst.ftc.server.Server - Server started on port 80
+18:23:59.749 [main] INFO  org.usfirst.ftc.server.Server - Launching browser for OS: Windows 10
+18:24:00.401 [qtp1115665956-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:00:401 PM, Session: node012s3v9o0xkmwd107essj09wp3l0, Route: http://localhost/ GET
+18:24:00.426 [qtp1115665956-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:00:425 PM, Session: node012s3v9o0xkmwd107essj09wp3l0, Route: http://localhost/event/south_regional_invitational_2021/ GET
+18:24:02.673 [qtp1115665956-45] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:02:673 PM, Session: node012s3v9o0xkmwd107essj09wp3l0, Route: http://localhost/login/ GET
+18:24:05.607 [qtp1115665956-48] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:05:607 PM, Session: node012s3v9o0xkmwd107essj09wp3l0, Route: http://localhost/callback/ POST
+18:24:05.618 [qtp1115665956-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:05:618 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/ GET
+18:24:05.623 [qtp1115665956-48] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:05:623 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/ GET
+18:24:09.284 [qtp1115665956-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:09:284 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/give_awards/ GET
+18:24:09.423 [qtp1115665956-56] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:09:423 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET
+18:24:09.460 [qtp1115665956-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:09:460 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/get_awards/?id=007bc9bb-08b7-11eb-a7b9-0ab3c42f2fe9 GET
+18:24:13.098 [qtp1115665956-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:13:098 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/data_transfer/ GET
+18:24:14.879 [qtp1115665956-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:14:879 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/export/ GET
+18:24:19.375 [qtp1115665956-56] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:19:375 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/view_script/ GET
+18:24:19.464 [qtp1115665956-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:19:464 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET
+18:24:26.391 [qtp1115665956-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:26:391 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/present_awards/ GET
+18:24:26.510 [qtp1115665956-56] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:26:510 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET
+18:24:35.733 [qtp1115665956-56] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:35:732 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/data_transfer/ GET
+18:24:36.327 [qtp1115665956-56] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:36:327 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/manage_awards/ GET
+18:24:36.425 [qtp1115665956-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:36:425 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET
+18:24:47.937 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+18:24:59.706 [qtp1115665956-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:59:706 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/view_script/ GET
+18:24:59.827 [qtp1115665956-56] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:24:59:827 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET
+18:25:53.043 [qtp1115665956-46] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:25:53:043 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/view_script/ GET
+18:25:53.185 [qtp1115665956-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:25:53:185 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET
+18:25:55.473 [qtp1115665956-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:25:55:473 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/view_script/ GET
+18:25:55.565 [qtp1115665956-46] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 06:25:55:565 PM, Session: node0jmq9lj92s1jfgu3s4h8vbgj2, Route: http://localhost/event/south_regional_invitational_2021/dashboard/awards/get_awards/ GET

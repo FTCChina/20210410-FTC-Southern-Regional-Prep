@@ -1,0 +1,347 @@
+08:08:44,268 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+08:08:44,269 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+08:08:44,270 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+08:08:44,271 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+08:08:44,271 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+08:08:44,271 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCLocal-v2.3.0.jar!/logback.xml]
+08:08:44,294 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7f9fcf7f - URL [jar:file:/C:/Users/xiwen/Desktop/20210410-FTC-Southern-Regional-Prep/ScoreKeeper-CN%202.3.0B/lib/FTCCommon-v2.3.0.jar!/logback.xml] is not of type file
+08:08:44,432 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+08:08:44,433 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+08:08:44,441 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+08:08:44,450 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+08:08:44,472 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [io.sentry.logback.SentryAppender]
+08:08:44,474 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sentry]
+08:08:44,476 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+08:08:44,477 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+08:08:44,477 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+08:08:44,477 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sentry] to Logger[ROOT]
+08:08:44,477 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+08:08:44,478 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2357d90a - Registering current configuration as safe fallback point
+
+08:08:44.538 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @968ms to org.eclipse.jetty.util.log.Slf4jLog
+Checking to see if new accounts need to be created for south_regional_invitational_2021
+No accounts missing for south_regional_invitational_2021
+08:08:45.901 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater started!
+08:08:46.114 [main] INFO  org.usfirst.ftc.event.EventsManager - Loaded active event south_regional_invitational_2021
+08:08:46.126 [main] INFO  org.usfirst.ftc.server.Server - Attempting to start server on port 80
+08:08:46.130 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = /public
+08:08:46.134 [main] INFO  s.s.StaticFilesConfiguration - External StaticResourceHandler configured with folder = ../uploads
+08:08:46.286 [Thread-21] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+08:08:46.286 [Thread-21] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:80
+08:08:46.289 [Thread-21] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 13.0.1+9
+08:08:46.314 [Thread-21] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+08:08:46.314 [Thread-21] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+08:08:46.315 [Thread-21] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+08:08:46.319 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@59b921a0{/,null,AVAILABLE}
+08:08:46.319 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@6e7453b6{/apiv1,null,AVAILABLE}
+08:08:46.319 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@371d74cd{/api,null,AVAILABLE}
+08:08:46.327 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@227368a6{/,null,AVAILABLE}
+08:08:46.333 [Thread-21] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@50b441e6{HTTP/1.1,[http/1.1]}{0.0.0.0:80}
+08:08:46.334 [Thread-21] INFO  org.eclipse.jetty.server.Server - Started @2770ms
+08:08:46.334 [main] INFO  org.usfirst.ftc.server.Server - Server started on port 80
+08:08:46.447 [main] INFO  org.usfirst.ftc.server.Server - Launching browser for OS: Windows 10
+08:08:48.286 [qtp2071723188-48] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:08:48:286 AM, Session: node01bfml2zagjyqs7vvxq2j2rprf0, Route: http://localhost/ GET
+08:08:48.302 [qtp2071723188-48] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:08:48:302 AM, Session: node01bfml2zagjyqs7vvxq2j2rprf0, Route: http://localhost/event/south_regional_invitational_2021/ GET
+08:09:23.921 [qtp2071723188-44] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:23:920 AM, Session: node011di05wh0oaqqxuf6sm6tbq1h1, Route: http://localhost/login/ GET
+08:09:26.713 [qtp2071723188-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:26:713 AM, Session: node011di05wh0oaqqxuf6sm6tbq1h1, Route: http://localhost/callback/ POST
+08:09:26.726 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:26:726 AM, Session: node016il4bp9k87t819lhtcxaorm7d2, Route: http://localhost/ GET
+08:09:26.732 [qtp2071723188-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:26:732 AM, Session: node016il4bp9k87t819lhtcxaorm7d2, Route: http://localhost/event/south_regional_invitational_2021/ GET
+08:09:35.954 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+08:09:42.755 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:42:755 AM, Session: node03txuw8z4qe8c1symyh85zwfoi3, Route: http://localhost/create/account/ GET
+08:09:42.764 [qtp2071723188-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:42:764 AM, Session: node03txuw8z4qe8c1symyh85zwfoi3, Route: http://localhost/login/ GET
+08:09:47.394 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:47:394 AM, Session: node03txuw8z4qe8c1symyh85zwfoi3, Route: http://localhost/users/manage/ GET
+08:09:47.400 [qtp2071723188-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:47:400 AM, Session: node03txuw8z4qe8c1symyh85zwfoi3, Route: http://localhost/login/ GET
+08:09:52.290 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:52:290 AM, Session: node03txuw8z4qe8c1symyh85zwfoi3, Route: http://localhost/callback/ POST
+08:09:52.295 [qtp2071723188-48] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:52:295 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/ GET
+08:09:55.123 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:09:55:123 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/inspect/ GET
+08:10:26.695 [qtp2071723188-48] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:10:26:695 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/inspect/ PUT
+08:10:26.738 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:10:26:738 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/inspect/ GET
+08:10:35.714 [qtp2071723188-48] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:10:35:714 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/inspect/ DELETE
+08:10:35.753 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:10:35:753 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/ GET
+08:10:38.440 [qtp2071723188-48] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:10:38:440 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/create/account/ GET
+08:10:49.329 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:10:49:329 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/create/account/ POST
+08:10:49.670 [qtp2071723188-48] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:10:49:669 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/inspect01/ GET
+08:10:52.919 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:10:52:919 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/create/account/ GET
+08:11:01.894 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:01:894 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/create/account/ POST
+08:11:02.195 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:02:195 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/inspect02/ GET
+08:11:05.369 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:05:369 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/ GET
+08:11:10.049 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:10:049 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/create/account/ GET
+08:11:23.318 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:23:317 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/create/account/ POST
+08:11:23.647 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:23:647 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/referee01/ GET
+08:11:27.516 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:27:516 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/create/account/ GET
+08:11:36.653 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:36:653 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/create/account/ POST
+08:11:36.987 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:36:987 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/referee02/ GET
+08:11:39.430 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:39:430 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/create/account/ GET
+08:11:46.315 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:46:315 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/create/account/ POST
+08:11:46.666 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:11:46:666 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/referee03/ GET
+08:12:08.235 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:12:08:235 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/ GET
+08:12:08.241 [qtp2071723188-59] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:12:08:241 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/event/south_regional_invitational_2021/ GET
+08:12:09.964 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:12:09:964 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/users/manage/ GET
+08:12:14.543 [qtp2071723188-59] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:12:14:543 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/ GET
+08:12:14.550 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:12:14:549 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/event/south_regional_invitational_2021/ GET
+08:12:47.567 [qtp2071723188-50] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:12:47:567 AM, Session: node01jof5anrzhr99s04pz7ek8qvp5, Route: http://192.168.1.101/ GET
+08:12:47.573 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:12:47:573 AM, Session: node01jof5anrzhr99s04pz7ek8qvp5, Route: http://192.168.1.101/event/south_regional_invitational_2021/ GET
+08:12:58.635 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:12:58:635 AM, Session: node01vdtfuyqpca54fk5815ix6j1k4, Route: http://localhost/event/south_regional_invitational_2021/rankings/ GET
+08:23:25.756 [qtp2071723188-70] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:25:756 AM, Session: node0ybi5zsg69tip1imf0y1bla7vp6, Route: http://192.168.1.101/ GET
+08:23:25.776 [qtp2071723188-59] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:25:776 AM, Session: node0ybi5zsg69tip1imf0y1bla7vp6, Route: http://192.168.1.101/event/south_regional_invitational_2021/ GET
+08:23:30.099 [qtp2071723188-61] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:30:099 AM, Session: node0ybi5zsg69tip1imf0y1bla7vp6, Route: http://192.168.1.101/login/ GET
+08:23:32.353 [qtp2071723188-73] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:32:353 AM, Session: node0ybi5zsg69tip1imf0y1bla7vp6, Route: http://192.168.1.101/login/ GET
+08:23:35.860 [qtp2071723188-61] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:35:860 AM, Session: node0ybi5zsg69tip1imf0y1bla7vp6, Route: http://192.168.1.101/login/ GET
+08:23:37.266 [qtp2071723188-73] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:37:266 AM, Session: node0ybi5zsg69tip1imf0y1bla7vp6, Route: http://192.168.1.101/login/ GET
+08:23:37.614 [qtp2071723188-61] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:37:614 AM, Session: node0ybi5zsg69tip1imf0y1bla7vp6, Route: http://192.168.1.101/login/ GET
+08:23:39.213 [qtp2071723188-73] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:39:213 AM, Session: node0ybi5zsg69tip1imf0y1bla7vp6, Route: http://192.168.1.101/login/ GET
+08:23:40.134 [qtp2071723188-61] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:40:134 AM, Session: node0ybi5zsg69tip1imf0y1bla7vp6, Route: http://192.168.1.101/login/ GET
+08:23:40.540 [qtp2071723188-66] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:40:540 AM, Session: node061zigmk7qly71mn10m6uxm4ua7, Route: http://match-control/ GET
+08:23:40.586 [qtp2071723188-61] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:40:585 AM, Session: node061zigmk7qly71mn10m6uxm4ua7, Route: http://match-control/event/south_regional_invitational_2021/ GET
+08:23:42.393 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:42:393 AM, Session: node061zigmk7qly71mn10m6uxm4ua7, Route: http://match-control/login/ GET
+08:23:44.843 [qtp2071723188-73] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:44:843 AM, Session: node0ybi5zsg69tip1imf0y1bla7vp6, Route: http://192.168.1.101/callback/ POST
+08:23:47.000 [qtp2071723188-66] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:47:000 AM, Session: node061zigmk7qly71mn10m6uxm4ua7, Route: http://match-control/callback/ POST
+08:23:47.312 [qtp2071723188-73] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:47:312 AM, Session: node018gftml4415huu24l730pc7ml9, Route: http://match-control/ GET
+08:23:47.334 [qtp2071723188-66] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:47:334 AM, Session: node018gftml4415huu24l730pc7ml9, Route: http://match-control/event/south_regional_invitational_2021/ GET
+08:23:50.200 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:50:200 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/ GET
+08:23:50.223 [qtp2071723188-66] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:23:50:223 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/ GET
+08:24:01.815 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:24:01:815 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/ GET
+08:24:03.382 [qtp2071723188-66] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:24:03:382 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/ GET
+08:24:05.430 [qtp2071723188-73] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:24:05:429 AM, Session: node018gftml4415huu24l730pc7ml9, Route: http://match-control/users/manage/ GET
+08:24:26.452 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:24:26:452 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/ GET
+08:24:28.252 [qtp2071723188-64] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:24:28:251 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/ GET
+08:24:39.377 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:24:39:377 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/ GET
+08:25:21.878 [qtp2071723188-64] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:25:21:877 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ GET
+08:29:45.026 [qtp2071723188-77] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:29:45:026 AM, Session: node0wjnsyoo2wvy9h9el3q01h5f810, Route: http://localhost/users/manage/ GET
+08:29:45.030 [qtp2071723188-59] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:29:45:030 AM, Session: node0wjnsyoo2wvy9h9el3q01h5f810, Route: http://localhost/login/ GET
+08:29:48.434 [qtp2071723188-78] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:29:48:434 AM, Session: node0wjnsyoo2wvy9h9el3q01h5f810, Route: http://localhost/callback/ POST
+08:29:48.438 [qtp2071723188-59] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:29:48:438 AM, Session: node01qz92ipra5u091kyt0q58h7yx011, Route: http://localhost/users/manage/ GET
+08:29:57.096 [qtp2071723188-78] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:29:57:096 AM, Session: node01qz92ipra5u091kyt0q58h7yx011, Route: http://localhost/ GET
+08:29:57.099 [qtp2071723188-59] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:29:57:099 AM, Session: node01qz92ipra5u091kyt0q58h7yx011, Route: http://localhost/event/south_regional_invitational_2021/ GET
+08:30:00.204 [qtp2071723188-78] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:30:00:204 AM, Session: node01qz92ipra5u091kyt0q58h7yx011, Route: http://localhost/event/south_regional_invitational_2021/control/ GET
+08:30:00.342 [qtp2071723188-78] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:30:00:342 AM, Session: node01qz92ipra5u091kyt0q58h7yx011, Route: http://localhost/event/south_regional_invitational_2021/control/schedule/ GET
+08:30:13.464 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:30:13:463 AM, Session: node01qz92ipra5u091kyt0q58h7yx011, Route: http://localhost/event/south_regional_invitational_2021/dashboard/ GET
+08:30:15.106 [qtp2071723188-78] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:30:15:106 AM, Session: node01qz92ipra5u091kyt0q58h7yx011, Route: http://localhost/event/south_regional_invitational_2021/dashboard/schedule/ GET
+08:30:15.213 [qtp2071723188-78] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:30:15:212 AM, Session: node01qz92ipra5u091kyt0q58h7yx011, Route: http://localhost/event/south_regional_invitational_2021/plainschedule/ GET
+08:30:15.303 [qtp2071723188-78] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:30:15:303 AM, Session: node01qz92ipra5u091kyt0q58h7yx011, Route: http://localhost/main.css/ GET
+08:30:49.461 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:30:49:461 AM, Session: node01tu707uq872li73uaqi6ppy8b12, Route: http://localhost/ GET
+08:30:49.464 [qtp2071723188-49] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:30:49:464 AM, Session: node01tu707uq872li73uaqi6ppy8b12, Route: http://localhost/event/south_regional_invitational_2021/ GET
+08:31:24.224 [qtp2071723188-70] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:31:24:224 AM, Session: node0155bktynrqda6zojh3omypd2213, Route: http://localhost/ GET
+08:31:24.228 [qtp2071723188-92] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:31:24:228 AM, Session: node0155bktynrqda6zojh3omypd2213, Route: http://localhost/event/south_regional_invitational_2021/ GET
+08:31:25.921 [qtp2071723188-70] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:31:25:921 AM, Session: node0155bktynrqda6zojh3omypd2213, Route: http://localhost/ GET
+08:31:25.924 [qtp2071723188-92] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:31:25:924 AM, Session: node0155bktynrqda6zojh3omypd2213, Route: http://localhost/event/south_regional_invitational_2021/ GET
+08:31:28.062 [qtp2071723188-70] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:31:28:062 AM, Session: node0155bktynrqda6zojh3omypd2213, Route: http://localhost/login/ GET
+08:31:30.110 [qtp2071723188-92] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:31:30:110 AM, Session: node0155bktynrqda6zojh3omypd2213, Route: http://localhost/callback/ POST
+08:31:30.113 [qtp2071723188-70] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:31:30:113 AM, Session: node0v80v29baym2owm68e0fx04h014, Route: http://localhost/ GET
+08:31:30.116 [qtp2071723188-92] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:31:30:116 AM, Session: node0v80v29baym2owm68e0fx04h014, Route: http://localhost/event/south_regional_invitational_2021/ GET
+08:31:32.669 [qtp2071723188-70] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:31:32:669 AM, Session: node0v80v29baym2owm68e0fx04h014, Route: http://localhost/event/south_regional_invitational_2021/control/ GET
+08:31:32.773 [qtp2071723188-92] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:31:32:773 AM, Session: node0v80v29baym2owm68e0fx04h014, Route: http://localhost/event/south_regional_invitational_2021/control/schedule/ GET
+08:36:33.594 [qtp2071723188-96] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:36:33:593 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/ GET
+08:36:55.308 [qtp2071723188-92] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:36:55:308 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ GET
+08:38:26.531 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:26:531 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:26.533 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater resuming
+08:38:26.579 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 1 updates
+08:38:27.522 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:27:522 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:28.890 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:28:890 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:29.449 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:29:449 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:30.448 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:30:448 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:31.072 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:31:072 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:32.107 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:32:107 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:32.606 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:32:606 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:33.121 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:33:121 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:33.544 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:33:544 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:34.644 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:34:644 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:35.185 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:35:185 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:35.704 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:35:704 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:36.200 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:36:200 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:36.594 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 13 updates
+08:38:36.769 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:36:769 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:38.100 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:38:100 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:39.761 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:39:760 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:41.021 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:41:021 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:41.397 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:41:397 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:42.672 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:42:672 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:43.763 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:43:763 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:44.253 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:44:253 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:45.002 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:45:002 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:45.680 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:45:680 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:46.320 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:46:320 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:46.612 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 11 updates
+08:38:47.074 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:47:074 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:47.695 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:47:695 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:48.575 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:48:575 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:49.126 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:49:126 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:49.707 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:49:707 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:50.952 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:50:952 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:51.685 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:51:685 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:53.022 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:53:022 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:53.750 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:53:750 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:54.331 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:54:331 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:55.174 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:55:173 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:56.637 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 11 updates
+08:38:57.308 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:57:307 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:58.012 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:58:012 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:38:58.824 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:38:58:824 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:39:00.731 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:00:731 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ PUT
+08:39:06.652 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 4 updates
+08:39:08.054 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:08:053 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/comment/ POST
+08:39:09.105 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:09:105 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/comment/ POST
+08:39:09.114 [qtp2071723188-70] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:09:114 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/7050/ POST
+08:39:09.162 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:09:162 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/ GET
+08:39:22.930 [qtp2071723188-70] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:22:930 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ GET
+08:39:35.797 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:35:797 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:36.164 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:36:164 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:36.701 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 2 updates
+08:39:36.863 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:36:863 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:38.185 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:38:185 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:38.558 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:38:558 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:39.209 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:39:209 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:39.643 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:39:643 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:40.335 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:40:335 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:41.005 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:41:005 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:42.061 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:42:061 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:42.643 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:42:643 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:43.130 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:43:130 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:43.669 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:43:669 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:44.162 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:44:162 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:44.754 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:44:754 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:45.275 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:45:275 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:45.628 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:45:628 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:46.591 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:46:591 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:46.721 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 16 updates
+08:39:47.400 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:47:400 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:48.089 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:48:089 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:48.540 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:48:540 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:49.206 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:49:206 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:50.313 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:50:313 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:51.299 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:51:298 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:53.843 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:53:843 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:54.540 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:54:540 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:55.619 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:55:619 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:56.081 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:56:081 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:56.742 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 10 updates
+08:39:58.363 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:58:363 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:39:59.293 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:39:59:293 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:00.279 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:00:279 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:00.944 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:00:944 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:02.011 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:02:010 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:03.415 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:03:415 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:04.276 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:04:276 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:04.767 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:04:767 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:05.648 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:05:648 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:06.045 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:06:045 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:06.773 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 10 updates
+08:40:06.962 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:06:962 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:07.392 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:07:392 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:08.313 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:08:313 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:08.836 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:08:835 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:09.749 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:09:749 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:10.677 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:10:676 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:12.181 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:12:181 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:13.389 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:13:389 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ PUT
+08:40:16.260 [qtp2071723188-98] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:40:16:260 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/comment/ POST
+08:40:16.794 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 8 updates
+08:41:16.838 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+08:42:24.766 [qtp2071723188-78] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:42:24:766 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/ POST
+08:42:24.766 [qtp2071723188-74] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:42:24:766 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8515/comment/ POST
+08:42:24.943 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:42:24:943 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/ GET
+08:45:29.029 [qtp2071723188-94] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:29:029 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ GET
+08:45:38.307 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:38:307 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:38.308 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater resuming
+08:45:38.361 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 1 updates
+08:45:38.675 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:38:675 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:39.474 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:39:474 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:40.396 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:40:396 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:40.699 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:40:699 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:41.316 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:41:316 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:45.004 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:45:004 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:45.615 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:45:615 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:48.376 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 7 updates
+08:45:49.202 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:49:202 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:50.533 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:50:533 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:51.960 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:51:960 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:52.582 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:52:582 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:53.013 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:53:013 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:53.820 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:53:820 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:55.138 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:55:138 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:55.651 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:55:651 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:57.188 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:57:188 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:57.873 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:45:57:873 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:45:58.399 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 10 updates
+08:46:07.740 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:07:740 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:08.431 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 1 updates
+08:46:08.556 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:08:556 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:09.374 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:09:374 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:10.737 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:10:737 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:14.394 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:14:394 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:15.008 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:15:008 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:15.726 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:15:726 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:16.444 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:16:444 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:17.568 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:17:568 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:18.230 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:18:230 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:18.445 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 9 updates
+08:46:18.660 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:18:660 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:19.213 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:19:213 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:20.134 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:20:133 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:20.792 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:20:792 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:21.157 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:21:157 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:21.870 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:21:870 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:28.466 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 6 updates
+08:46:32.288 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:32:288 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:32.825 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:32:825 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:33.302 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:33:302 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:33.748 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:33:748 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:34.668 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:34:668 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:35.181 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:46:35:181 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/1120/ PUT
+08:46:38.500 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 6 updates
+08:47:38.556 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+08:47:47.071 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:47:47:071 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ GET
+08:47:48.900 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:47:48:900 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ GET
+08:48:04.164 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:04:164 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:04.165 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater resuming
+08:48:04.180 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 1 updates
+08:48:04.578 [qtp2071723188-97] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:04:578 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:05.092 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:05:091 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:06.317 [qtp2071723188-97] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:06:317 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:14.209 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 3 updates
+08:48:48.712 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:48:712 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:49.429 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:49:428 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:49.882 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:49:882 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:50.554 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:50:554 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:51.082 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:51:082 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:52.076 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:52:076 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:52.662 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:52:662 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:53.217 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:53:217 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:53.692 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:53:692 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:54.241 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:54:241 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:54.273 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 9 updates
+08:48:54.852 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:54:852 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:55.957 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:55:957 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:56.596 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:56:596 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:57.928 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:57:928 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:48:58.440 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:48:58:440 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:03.071 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:03:071 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:03.762 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:03:762 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:04.305 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 8 updates
+08:49:04.992 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:04:992 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:05.608 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:05:608 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:06.321 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:06:321 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:06.836 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:06:836 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:08.067 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:08:067 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:08.371 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:08:371 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:09.294 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:09:294 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:10.146 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:10:146 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:10.726 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:10:726 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:11.466 [qtp2071723188-95] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:11:466 AM, Session: node03mqcngk29ttwc9pp6tjnlbkj15, Route: http://localhost/event/south_regional_invitational_2021/control/ GET
+08:49:11.474 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:11:474 AM, Session: node03mqcngk29ttwc9pp6tjnlbkj15, Route: http://localhost/login/ GET
+08:49:14.192 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:14:192 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:14.327 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 10 updates
+08:49:14.616 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:14:615 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:15.216 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:15:216 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:15.713 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:15:713 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:16.667 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:16:667 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:17.108 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:17:108 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:18.202 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:18:202 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:19.124 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:19:124 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ PUT
+08:49:22.069 [qtp2071723188-101] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:22:069 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/comment/ POST
+08:49:24.353 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Updater wrote 7 updates
+08:49:26.601 [qtp2071723188-57] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:26:601 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/comment/ POST
+08:49:26.619 [qtp2071723188-71] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:26:619 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/8639/ POST
+08:49:26.670 [qtp2071723188-103] INFO  org.usfirst.ftc.server.Server - Time: 04/10/2021 08:49:26:670 AM, Session: node01bwwvbcij80w0eeqfwjr9c4hk8, Route: http://192.168.1.101/event/south_regional_invitational_2021/inspect/r/ GET
+08:49:52.201 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater interrupted! Performing final queue dump and terminating.
+08:49:52.201 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater iterminating.
